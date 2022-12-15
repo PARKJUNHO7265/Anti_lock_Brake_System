@@ -13,7 +13,7 @@ ABS는 운전자가 브레이크를 강하게 밟았다 하더라도 자동적�
 
 <h3>ABS equation</h3>
 
-![image](https://user-images.githubusercontent.com/87568714/207833777-cb9fe8bb-a6a9-43a5-8abf-a4486f081fda.png)
+![image](https://user-images.githubusercontent.com/87568714/207833777-cb9fe8bb-a6a9-43a5-8abf-a4486f081fda.png)</br>
 Ff는 차량의 바퀴와 지면과의 마찰력, Fi는 차량의 관성력, N은 수직력, W는 차량의무게이다.
 이때 다음과 같은 방정식이 성립한다.
 
