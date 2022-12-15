@@ -17,4 +17,7 @@ ABS는 운전자가 브레이크를 강하게 밟았다 하더라도 자동적�
 Ff는 차량의 바퀴와 지면과의 마찰력, Fi는 차량의 관성력, N은 수직력, W는 차량의무게이다.
 이때 다음과 같은 방정식이 성립한다.
 
-![image](https://user-images.githubusercontent.com/87568714/207834535-4ed7cad8-6d61-4bcc-ac9a-e69a0f681269.png) ![image](https://user-images.githubusercontent.com/87568714/207834635-1d298d76-db3e-4fc9-857a-0aa73ffe8aff.png)
+![image](https://user-images.githubusercontent.com/87568714/207834535-4ed7cad8-6d61-4bcc-ac9a-e69a0f681269.png) ![image](https://user-images.githubusercontent.com/87568714/207834635-1d298d76-db3e-4fc9-857a-0aa73ffe8aff.png)</br>
+Ff는 다음과 같이 나타낼수 있으며 
+![image](https://user-images.githubusercontent.com/87568714/207835332-644ef0b7-af65-4f31-afdd-2dc585b5a744.png) ![image](https://user-images.githubusercontent.com/87568714/207835434-88b8a1d9-021f-4deb-8796-062fcd98e732.png) ![image](https://user-images.githubusercontent.com/87568714/207835507-4d2c0dc4-33b7-4ed2-81bc-fd6dbf47bff9.png)
+ 
