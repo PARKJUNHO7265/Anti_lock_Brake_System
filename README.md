@@ -12,6 +12,7 @@ MATLAB & SIMULINK
 ABS는 운전자가 브레이크를 강하게 밟았다 하더라도 자동적으로 브레이크를 나눠서 밟게 해주는 시스템이다.
 
 <h3>ABS equation</h3>
+먼저 차량에 대한 방정식을 구해보자.
 
 ![image](https://user-images.githubusercontent.com/87568714/207833777-cb9fe8bb-a6a9-43a5-8abf-a4486f081fda.png)</br>
 Ff는 차량의 바퀴와 지면과의 마찰력, Fi는 차량의 관성력, N은 수직력, W는 차량의무게이다.
@@ -26,4 +27,19 @@ Fi는 mv와 차량가속도의 곱으로 나타낼수 있으므로 다음과 같
 ![image](https://user-images.githubusercontent.com/87568714/207836191-0cfd896c-c808-477e-a72e-bb531d59734c.png)
 Ff와 Fi 두 식을 조합하면 차량의 가속도에 대한 방정식을 아래와 같이 구할수 있다.
 
-![image](https://user-images.githubusercontent.com/87568714/207836543-0ff3523c-e5f8-4255-9a87-d9a3ed73eade.png)
+![image](https://user-images.githubusercontent.com/87568714/207836771-92db2134-9ea3-4e54-8616-7e9333ab082c.png)
+
+다음은 바퀴에 대한 방정식이다.
+
+![image](https://user-images.githubusercontent.com/87568714/207837124-c55f4b68-7dae-4f1e-86dd-a93b8b28a2e1.png)
+rw는 바퀴의 반지름, Ww는 바퀴의 각속도, Tb는 브레이크 토크이다.
+이때 다음과 같은 방정식이 성립한다.
+
+![image](https://user-images.githubusercontent.com/87568714/207837722-5ac4f315-7205-480a-9135-a1ceb2b78a26.png)
+이를 정리하면 바퀴 가속도에 대한 방정식을 다음과 같이 구할수 있다.
+
+![image](https://user-images.githubusercontent.com/87568714/207837829-aea85628-0724-4d8f-916f-98dab4fdf1e8.png)
+
+마지막으로 슬립에 대한 방정식은 아래와 같다.
+
+![image](https://user-images.githubusercontent.com/87568714/207838252-b1c96678-db71-451b-b74d-2c7931b07295.png)
