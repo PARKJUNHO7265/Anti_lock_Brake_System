@@ -26,7 +26,7 @@ Fi는 mv와 차량가속도의 곱으로 나타낼수 있으므로 다음과 같
 
 ![image](https://user-images.githubusercontent.com/87568714/207836191-0cfd896c-c808-477e-a72e-bb531d59734c.png)</br>
 Ff와 Fi 두 식을 조합하면 차량의 가속도에 대한 방정식을 아래와 같이 구할수 있다.</br>
-1.
+①.
 ![image](https://user-images.githubusercontent.com/87568714/207836771-92db2134-9ea3-4e54-8616-7e9333ab082c.png)</br>
 
 다음은 바퀴에 대한 방정식이다.
