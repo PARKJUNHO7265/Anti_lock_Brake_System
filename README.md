@@ -25,7 +25,7 @@ Ff는 다음과 같이 나타낼수 있다.(g는 중력가속도, mv는 차량�
 Fi는 mv와 차량가속도의 곱으로 나타낼수 있으므로 다음과 같이 나타낼수 있다.
 
 ![image](https://user-images.githubusercontent.com/87568714/207836191-0cfd896c-c808-477e-a72e-bb531d59734c.png)</br>
-Ff와 Fi 두 식을 조합하면 차량의 가속도에 대한 방정식을 아래와 같이 구할수 있다.
+Ff와 Fi 두 식을 조합하면 차량의 가속도에 대한 방정식을 아래와 같이 구할수 있다.</br>
 1.
 ![image](https://user-images.githubusercontent.com/87568714/207836771-92db2134-9ea3-4e54-8616-7e9333ab082c.png)</br>
 
@@ -36,9 +36,9 @@ rw는 바퀴의 반지름, Ww는 바퀴의 각속도, Tb는 브레이크 토크�
 이때 다음과 같은 방정식이 성립한다.
 
 ![image](https://user-images.githubusercontent.com/87568714/207837722-5ac4f315-7205-480a-9135-a1ceb2b78a26.png)</br>
-이를 정리하면 바퀴 가속도에 대한 방정식을 다음과 같이 구할수 있다.
+이를 정리하면 바퀴 가속도에 대한 방정식을 다음과 같이 구할수 있다.</br>
 2.
 ![image](https://user-images.githubusercontent.com/87568714/207837829-aea85628-0724-4d8f-916f-98dab4fdf1e8.png)</br>
-마지막으로 슬립에 대한 방정식은 아래와 같다.
+마지막으로 슬립에 대한 방정식은 아래와 같다.</br>
 3.
 ![image](https://user-images.githubusercontent.com/87568714/207838252-b1c96678-db71-451b-b74d-2c7931b07295.png)</br>
