@@ -38,5 +38,19 @@ T_b – F_f ⋅ r_w – J_w ⋅ dω_w / dt = 0
 <h3>ABS 모델링</h3>
 먼저 바퀴에 대한 모델링이다. 타이어 토크와 브레이크 토크의 차를 적분한것이 바퀴 속도와 같다.
 
-![image](https://user-images.githubusercontent.com/87568714/207851894-4b500e40-b4c2-4f23-ba37-319434b25e33.png)
+![image](https://user-images.githubusercontent.com/87568714/208230797-e4c8bc26-98f6-42f6-9635-6fe560c1dcd3.png)</br>
+
+다음은 슬립을 계산하는 모델이다. 바퀴 바퀴각속도를 차량의 각속도로 나누고 이를 1에서 뺀 것이 슬립이다.
+
+![image](https://user-images.githubusercontent.com/87568714/208231399-24ced8ad-df65-4c9f-bffb-3527ac13818c.png)</br>
+
+다음은 차량의 속도, 타이어 토크 등을 계산하는 모델이다. 해당 모델을 통해 타이어 토크, 차량의 각속도, 정지거리 등을 구할 수 있다.
+
+![image](https://user-images.githubusercontent.com/87568714/208232046-6c2ad123-0d30-43bd-8df8-c69c25dd6eb4.png)
+
+마지막으로 제어기 모델이다. Bang-Bang controller를 사용하며 error값을 받아 브레이크 토크를 출력한다.
+
+![image](https://user-images.githubusercontent.com/87568714/208232463-6b4245ea-2f4c-45d0-ba42-1205d5c66e54.png)
+
+
 
