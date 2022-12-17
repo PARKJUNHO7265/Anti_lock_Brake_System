@@ -56,4 +56,14 @@ T_b – F_f ⋅ r_w – J_w ⋅ dω_w / dt = 0
 
 ![image](https://user-images.githubusercontent.com/87568714/208232833-e82bc6bc-a112-40ec-b0e5-57e77e165df5.png)
 
+<h3>시뮬레이션 결과</h3>
+25초 동안 위 모델을 시뮬레이션 하였으며 slip에 대한 그래프는 다음과 같았다.
 
+![image](https://user-images.githubusercontent.com/87568714/208233133-afb2d3c8-fa36-43a1-80c3-b852abd19611.png)
+
+대략 20초 동안 slip이 0.2에 가깝도록 제어되고 22초 가량에 차량이 완전히 정지된것을 확인할 수 있다.
+다음은 바퀴와 차량의 속도에 대한 그래프이다.
+
+![image](https://user-images.githubusercontent.com/87568714/208233291-f8eaddb1-471a-461d-888c-985bd90fb18c.png)
+
+바퀴의 속도가 급격하게 감소하여 잠기는 현상을 방지하고자 제어기가 잘 작동되는것을 확인할 수 있다.
