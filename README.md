@@ -56,8 +56,8 @@ T_b – F_f ⋅ r_w – J_w ⋅ dω_w / dt = 0
 
 ![image](https://user-images.githubusercontent.com/87568714/208232833-e82bc6bc-a112-40ec-b0e5-57e77e165df5.png)
 
-<h3>시뮬레이션 결과</h3>
-25초 동안 위 모델을 시뮬레이션 하였으며 slip에 대한 그래프는 다음과 같았다.</br>
+<h3>ABS를 적용한 시뮬레이션 결과</h3>
+25초 동안 위 모델을 시뮬레이션 하였으며 slip에 대한 그래프는 다음과 같았다.
 
 ![image](https://user-images.githubusercontent.com/87568714/208233133-afb2d3c8-fa36-43a1-80c3-b852abd19611.png)
 
@@ -67,3 +67,21 @@ T_b – F_f ⋅ r_w – J_w ⋅ dω_w / dt = 0
 ![image](https://user-images.githubusercontent.com/87568714/208233291-f8eaddb1-471a-461d-888c-985bd90fb18c.png)
 
 바퀴의 속도가 급격하게 감소하여 잠기는 현상을 방지하고자 제어기가 잘 작동되는것을 확인할 수 있다.
+
+<h3>ABS를 제외한 시뮬레이션 결과</h3>
+
+![image](https://user-images.githubusercontent.com/87568714/208233543-efb0b125-283e-4db8-9cd3-2c350d198b06.png)
+
+위와 같이 슬립에 대한 오차를 조정하는 부분에 Gain을 0으로 주어 ABS를 제거하고 시뮬레이션 해보았다.
+결과는 다음과 같았다.
+![image](https://user-images.githubusercontent.com/87568714/208233638-6a1a15d6-8cc4-496e-b315-d841b302b9f6.png)
+
+slip은 원하는 값인 0.2에서 벗어나 꾸준히 증가하였으며,
+
+![image](https://user-images.githubusercontent.com/87568714/208233515-fd8eb0fd-d23b-4b0e-b730-ce3e46b1b043.png)
+
+바퀴의 속도 또한 매우 급격하게 줄어들어 잠김 현상이 발생하였다.
+최종적으로 정지거리를 비교해보자.
+첫번째 사진은 ABS를 적용하지 않았을때 정지거리 그래프이며 두번째는 ABS를 적용한 경우이다.
+
+![image](https://user-images.githubusercontent.com/87568714/208233746-71cc6d84-0be9-4565-be2c-33ba63b1e7ef.png)![image](https://user-images.githubusercontent.com/87568714/208233814-64b3ca4b-018a-41c3-8f03-d447ffa1359c.png)
