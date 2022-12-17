@@ -73,7 +73,7 @@ T_b – F_f ⋅ r_w – J_w ⋅ dω_w / dt = 0
 ![image](https://user-images.githubusercontent.com/87568714/208233543-efb0b125-283e-4db8-9cd3-2c350d198b06.png)
 
 위와 같이 슬립에 대한 오차를 조정하는 부분에 Gain을 0으로 주어 ABS를 제거하고 시뮬레이션 해보았다.
-결과는 다음과 같았다.
+결과는 다음과 같았다.</br>
 ![image](https://user-images.githubusercontent.com/87568714/208233638-6a1a15d6-8cc4-496e-b315-d841b302b9f6.png)
 
 slip은 원하는 값인 0.2에서 벗어나 꾸준히 증가하였으며,
