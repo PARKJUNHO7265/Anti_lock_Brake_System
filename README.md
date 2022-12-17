@@ -46,12 +46,14 @@ T_b – F_f ⋅ r_w – J_w ⋅ dω_w / dt = 0
 
 다음은 차량의 속도, 타이어 토크 등을 계산하는 모델이다. 해당 모델을 통해 타이어 토크, 차량의 각속도, 정지거리 등을 구할 수 있다.
 
-![image](https://user-images.githubusercontent.com/87568714/208232046-6c2ad123-0d30-43bd-8df8-c69c25dd6eb4.png)
+![image](https://user-images.githubusercontent.com/87568714/208232813-e52ce906-bd2f-494f-9fcf-2ca25940b453.png)
 
 마지막으로 제어기 모델이다. Bang-Bang controller를 사용하며 error값을 받아 브레이크 토크를 출력한다.
 
 ![image](https://user-images.githubusercontent.com/87568714/208232549-78d1c22f-beaf-4766-a58b-d51146cfd73b.png)
 
+최종적으로 완성된 모델은 다음과 같다.
 
+![image](https://user-images.githubusercontent.com/87568714/208232833-e82bc6bc-a112-40ec-b0e5-57e77e165df5.png)
 
 
