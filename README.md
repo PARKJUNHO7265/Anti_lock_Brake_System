@@ -81,7 +81,11 @@ slip은 원하는 값인 0.2에서 벗어나 꾸준히 증가하였으며,
 ![image](https://user-images.githubusercontent.com/87568714/208233515-fd8eb0fd-d23b-4b0e-b730-ce3e46b1b043.png)
 
 바퀴의 속도 또한 매우 급격하게 줄어들어 잠김 현상이 발생하였다.
-최종적으로 정지거리를 비교해보자.
+최종적으로 정지거리를 비교해보자.</br>
 첫번째 사진은 ABS를 적용하지 않았을때 정지거리 그래프이며 두번째는 ABS를 적용한 경우이다.
 
-![image](https://user-images.githubusercontent.com/87568714/208233746-71cc6d84-0be9-4565-be2c-33ba63b1e7ef.png)![image](https://user-images.githubusercontent.com/87568714/208233814-64b3ca4b-018a-41c3-8f03-d447ffa1359c.png)
+![image](https://user-images.githubusercontent.com/87568714/208233746-71cc6d84-0be9-4565-be2c-33ba63b1e7ef.png)
+![image](https://user-images.githubusercontent.com/87568714/208233814-64b3ca4b-018a-41c3-8f03-d447ffa1359c.png)
+
+ABS를 적용한 경우가 대략 50m 정도 정지거리가 더 짧은것을 확인할 수 있다.
+
