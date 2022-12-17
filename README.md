@@ -50,7 +50,8 @@ T_b – F_f ⋅ r_w – J_w ⋅ dω_w / dt = 0
 
 마지막으로 제어기 모델이다. Bang-Bang controller를 사용하며 error값을 받아 브레이크 토크를 출력한다.
 
-![image](https://user-images.githubusercontent.com/87568714/208232463-6b4245ea-2f4c-45d0-ba42-1205d5c66e54.png)
+![image](https://user-images.githubusercontent.com/87568714/208232549-78d1c22f-beaf-4766-a58b-d51146cfd73b.png)
+
 
 
 
