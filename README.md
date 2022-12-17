@@ -57,7 +57,7 @@ T_b – F_f ⋅ r_w – J_w ⋅ dω_w / dt = 0
 ![image](https://user-images.githubusercontent.com/87568714/208232833-e82bc6bc-a112-40ec-b0e5-57e77e165df5.png)
 
 <h3>시뮬레이션 결과</h3>
-25초 동안 위 모델을 시뮬레이션 하였으며 slip에 대한 그래프는 다음과 같았다.
+25초 동안 위 모델을 시뮬레이션 하였으며 slip에 대한 그래프는 다음과 같았다.</br>
 
 ![image](https://user-images.githubusercontent.com/87568714/208233133-afb2d3c8-fa36-43a1-80c3-b852abd19611.png)
 
