@@ -85,5 +85,5 @@ T_b – F_f ⋅ r_w – J_w ⋅ dω_w / dt = 0
 ![image](https://user-images.githubusercontent.com/87568714/208233746-71cc6d84-0be9-4565-be2c-33ba63b1e7ef.png)
 ![image](https://user-images.githubusercontent.com/87568714/208233814-64b3ca4b-018a-41c3-8f03-d447ffa1359c.png)
 
-ABS를 적용한 경우가 대략 50m 정도 정지거리가 더 짧은것을 확인할 수 있다.
+ABS를 적용한 경우가 대략 70m 정도 정지거리가 더 짧은것을 확인할 수 있다.
 
